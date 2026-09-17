@@ -1,277 +1,242 @@
 const config = {
-  "meta": {
-    "pageTitle": "Win $400 Blue Jays Tickets - Summer Game Night Giveaway!",
-    "navBrandLogoText": "Julian Kashani",
-    "privacyPolicyLink": "https://property.ca/privacy"
+  meta: {
+    pageTitle: "Win $500 Capitol Hill Fall Night Out, Free Entry!",
+    navBrandLogoText: "Brennen Clouse",
+    privacyPolicyLink: "https://docs.google.com/document/d/1NmwpgiFpgYdiVQ3VAe1-q0kgYTM3B_5TUUMzhZ45fN0/edit?usp=sharing"
   },
-  "giveaway": {
-    "heroHeadline": "Win <span class='highlight'>Free Toronto Blue Jays Tickets</span> for an Epic Summer Game Night!",
-    "heroSubheadline": "Score two premium seats to see the Toronto Blue Jays take on the Texas Rangers, valued at $400! Make your summer unforgettable with this all-star night out. Entry closes July 25th, winner picked July 29th.",
-    "heroBackgroundImageUrl": "https://salesgenius.s3.ca-central-1.amazonaws.com/giveaways/generations/3x4pjwf8h1rma0cqhn6tw7t808.jpg",
-    "promotionDates": "Enter from June 27th to July 25th, 2025 - winner announced July 29th!",
-    "endDate": "2026-12-31T23:59:00.000Z",
-    "heroCtaText": "Enter to Win Now!",
-    "entryFormCtaText": "Enter Game Night Draw!",
-    "name": "Blue Jays Summer Game Night Giveaway",
-    "successModalHeaderText": "You’re in the Draw!",
-    "successModalMainMessage": "Your entry for the <strong>Toronto Blue Jays Summer Game Night</strong> is in! Winner will be announced July 29th and notified by email. Good luck!",
-    "successModalEmailPrompt": "Watch your email and keep July 29th on your calendar—you could be on your way to the ballpark!"
+  giveaway: {
+    heroHeadline: "Win a <span class='highlight'>$500 Fall Night Out</span> in Capitol Hill!",
+    heroSubheadline: "Dine, sip, and explore Seattle’s trendiest spot. Perfect for tech pros and first time buyers. Prize must be claimed within 5 business days. Enter before the deadline.",
+    heroBackgroundImageUrl: "",
+    promotionDates: "Enter Oct 7 to Oct 21, 2026. Winner picked Oct 21, 2026.",
+    endDate: "2026-10-22T06:59:00.000Z",
+    heroCtaText: "Enter to Win Now!",
+    entryFormCtaText: "Enter to Win Now!",
+    name: "Capitol Hill Fall Night Out",
+    successModalHeaderText: "You’re in the Draw!",
+    successModalMainMessage: "Your entry for the <strong>Capitol Hill Fall Night Out</strong> is in! Winner will be announced Oct 21, 2026 and notified by email. Prize must be claimed within 5 business days. Good luck!",
+    successModalEmailPrompt: "Watch your email on Oct 21, 2026, and check your spam folder too."
   },
-  "settings": {
-    "confettiColors": [
-      "#0055A4",
-      "#003366",
-      "#FFFFFF"
-    ],
-    "showCountdownInHero": true,
-    "theme": "dark",
-    "primaryColorOverride": "#0055A4",
-    "secondaryColorOverride": "#FFEE58",
-    "ghlWebhookUrl": "https://services.leadconnectorhq.com/hooks/bJbBMjcW619cJrLUJ3kY/webhook-trigger/3yNsurfrt9oBUtRBuygb",
-    "facebookPixelId": "1057475448873422",
-    "salesGeniusAppApi": "",
-    "followUpBossEmail": "",
-    "webhookUrl": "https://n8n.salesgenius.co/webhook/giveawayupdate",
-    "turnstileSiteKey": "0x4AAAAAAB5SpbWeBo7JnEIs",
-    "turnstileReplitSiteId": "0c27b526-888c-489b-8f11-66d1fcba1bfa"
+  settings: {
+    confettiColors: ["#111827", "#0B1220", "#FFFFFF"],
+    showCountdownInHero: true,
+    theme: "dark",
+    primaryColorOverride: "",
+    secondaryColorOverride: "#FFEE58",
+    ghlWebhookUrl: "https://services.leadconnectorhq.com/hooks/bJbBMjcW619cJrLUJ3kY/webhook-trigger/3yNsurfrt9oBUtRBuygb",
+    webhookUrl: "https://n8n.salesgenius.co/webhook/giveawayupdate",
+    facebookPixelId: "1057475448873422",
+    salesGeniusAppApi: "",
+    followUpBossEmail: ""
   },
-  "prize": {
-    "images": [
+  thankYouPage: {
+    pageTitle: "Thank You for Your Entry!",
+    headerText: "You’re In the Running!",
+    mainMessage: "Your entry for the <strong>Capitol Hill Fall Night Out</strong> is in. We will draw the winner on Oct 21, 2026 and email them. Remember, you must claim the prize within 5 business days. Good luck!",
+    socialPromptText: "Want to help a friend win too? Share this giveaway now!"
+  },
+  prize: {
+    images: [
       {
-        "src": "https://salesgenius.s3.ca-central-1.amazonaws.com/giveaways/generations/hg2dnqs7yhrm80cqhn79nt68j8.jpg",
-        "alt": "Cheering fans at a Blue Jays baseball game"
+        src: "",
+        alt: "Couple enjoying dinner on a fall night in Capitol Hill Seattle"
       },
       {
-        "src": "https://salesgenius.s3.ca-central-1.amazonaws.com/giveaways/generations/bk4ehhbc35rmc0cqhn78wzw7t8.jpg",
-        "alt": "Couple enjoying a summer night at the Rogers Centre"
+        src: "",
+        alt: "Neon lights and street scene on Pike slash Pine Corridor Seattle"
       },
       {
-        "src": "https://salesgenius.s3.ca-central-1.amazonaws.com/giveaways/generations/w99mghnswxrm80cqhn7bm108b0.jpg",
-        "alt": "Exciting baseball action between Toronto Blue Jays and Texas Rangers"
+        src: "",
+        alt: "Friends with dessert and coffee in a cozy Seattle cafe"
       },
       {
-        "src": "https://salesgenius.s3.ca-central-1.amazonaws.com/giveaways/generations/wzcq768e4drme0cqhn7v49g7tr.jpg",
-        "alt": "Tickets for a premier Blue Jays game experience"
+        src: "",
+        alt: "Live music venue exterior in Capitol Hill at night"
       }
     ],
-    "includedItems": [
+    includedItems: [
       {
-        "icon": "fas fa-baseball-ball",
-        "text": "Two premium tickets to Blue Jays vs. Rangers"
+        icon: "fas fa-utensils",
+        text: "Dining gift cards for top local spots"
       },
       {
-        "icon": "fas fa-user-friends",
-        "text": "Perfect for couples, friends, or a special family outing"
+        icon: "fas fa-cocktail",
+        text: "Craft drinks or coffee on us"
       },
       {
-        "icon": "fas fa-star",
-        "text": "$400 total value - for a big-time experience"
+        icon: "fas fa-music",
+        text: "Optional tickets for live music or a show"
       },
       {
-        "icon": "fas fa-city",
-        "text": "Catch live baseball in downtown Toronto"
+        icon: "fas fa-store",
+        text: "A little extra for a local shop or dessert"
       },
       {
-        "icon": "fas fa-calendar-day",
-        "text": "Game date: Summer 2025, Texas Rangers matchup"
+        icon: "fas fa-car",
+        text: "Rideshare or transit credit to get around with ease"
       }
     ],
-    "name": "Toronto Blue Jays Summer Game Night Experience",
-    "value": "$400 Value",
-    "description": "Imagine you and your favorite person cheering in the stands as the Blue Jays play live against the Texas Rangers! Feel the rush, eat ballpark snacks, and enjoy a big summer night in the city. This giveaway gets you <span class='highlight'>two premium tickets</span> for the best seats in the house. Whether it’s a fun date or a night with a friend, you’ll remember it all year long.",
-    "limitedTimeOfferText": "Summer Only - Limited Entry!",
-    "ctaButtonText": "I Want These Game Tickets!"
+    name: "Capitol Hill Fall Night Out Experience",
+    value: "$500 Value",
+    description: "Picture this: crisp fall air, city lights on Pike and Pine, and your favorite people by your side. Start with craft drinks. Enjoy a tasty dinner. Grab dessert at a cozy spot. Stroll past murals and music. This simple, fun night is all about joy in the heart of Seattle. We make it easy, so you can just show up and smile.",
+    limitedTimeOfferText: "Limited Fall Giveaway, Ends Soon!",
+    ctaButtonText: "I Want This Night Out!"
   },
-  "howToEnter": {
-    "steps": [
+  howToEnter: {
+    steps: [
       {
-        "icon": "fas fa-instagram",
-        "title": "Follow Instagram Account",
-        "description": "Follow our Instagram account to stay connected and get updates on the giveaway."
+        icon: "fas fa-edit",
+        title: "Follow me on Instagram",
+        description: "Follow me @brenthebroker"
       },
       {
-        "icon": "fas fa-question-circle",
-        "title": "Answer Simple Questions",
-        "description": "Tell us a little about who you’d bring and why you’d love this summer baseball night."
+        icon: "fas fa-question-circle",
+        title: "Answer 4 Quick Questions",
+        description: "Tell us a bit about your home plans."
       },
       {
-        "icon": "fas fa-trophy",
-        "title": "Get Your Chance to Win!",
-        "description": "That’s it! Watch your inbox—winner picked July 29th."
+        icon: "fas fa-trophy",
+        title: "You’re Entered!",
+        description: "We pick a random winner on October 21. Watch your email."
       }
     ],
-    "highlights": [
+    highlights: [
       {
-        "icon": "fas fa-clock",
-        "text": "Super quick and easy entry"
+        icon: "fas fa-clock",
+        text: "Super quick and easy entry"
       },
       {
-        "icon": "fas fa-gift",
-        "text": "No purchase needed"
+        icon: "fas fa-gift",
+        text: "No purchase needed"
       },
       {
-        "icon": "fas fa-heart",
-        "text": "Great night out with someone special"
+        icon: "fas fa-heart",
+        text: "Great night out with someone special"
       },
       {
-        "icon": "fas fa-star",
-        "text": "Random, fair winner pick"
+        icon: "fas fa-star",
+        text: "Random, fair winner pick"
       }
     ]
   },
-  "rules": {
-    "faq": [
+  rules: {
+    finePrintText: "Please read the fine print before entering. Anyone can enter.",
+    showTipsSection: true,
+    faq: [
       {
-        "q": "Who can enter this giveaway?",
-        "a": "Anyone 18 or older living in Ontario can enter. Couples, families, and friends are welcome!"
+        q: "Who can enter?",
+        a: "Anyone 18 or older who lives in Washington can enter. One entry per person."
       },
       {
-        "q": "How will I know if I win?",
-        "a": "Winner will get an email from jk@property.ca on July 29th. Check your inbox and spam!"
+        q: "When does it end?",
+        a: "Entries close Oct 21, 2026 at 11:59 PM PT. We draw the same day."
       },
       {
-        "q": "Do I have to pay for anything?",
-        "a": "Nope—the tickets are totally free! Just show up and enjoy the game."
+        q: "How do I get the prize?",
+        a: "We send digital gift cards by email. Easy and fast."
       },
       {
-        "q": "What if I can’t make the game?",
-        "a": "If you can’t attend, let us know so someone else can use this amazing prize."
+        q: "Do I need to buy anything?",
+        a: "No. No purchase is needed to enter or win."
+      },
+      {
+        q: "Is this tied to any brand or social app?",
+        a: "No. This is not sponsored by Instagram, Facebook, or any listed venue."
+      },
+      {
+        q: "Why is a real estate agent running this?",
+        a: "We love our Seattle community. We also help renters become first time buyers. The short questions help us serve you better."
+      },
+      {
+        q: "Can I enter more than once?",
+        a: "No. One entry per person to keep it fair."
       }
     ],
-    "tips": [
-      "Double-check your email for typos—make sure you can be reached",
-      "Think of who you'd take for this special night",
-      "Tell family and friends to enter too",
-      "Follow Julian Kashani on Instagram or Facebook for the winner post"
+    tips: [
+      "Use your best email so we can reach you if you win",
+      "Add brennen@egreseattle.com to your contacts",
+      "Follow @brenthebroker on Instagram and Facebook for winner news",
+      "Enter before Oct 21, 2026 so you don’t miss out"
     ],
-    "finePrintText": "Please read the fine print before entering. Anyone can enter.",
-    "showTipsSection": true,
-    "fairSelectionInfo": {
-      "title": "Fair and Random Drawing",
-      "text": "Every entry has the same fair shot! Winner is chosen by a random draw. No tricks, just luck."
+    fairSelectionInfo: {
+      title: "Fair and Random Winner",
+      text: "We use a random draw tool. Every valid entry has the same chance. No tricks. No pay to win."
     },
-    "importantNotice": {
-      "title": "Watch Your Email",
-      "text": "Only the email you use here will be contacted. Be sure to check your spam, too, on July 29th."
+    importantNotice: {
+      title: "Winner Must Claim Fast",
+      text: "We will email the winner on Oct 21, 2026. You must claim the prize within 5 business days or we pick a new winner. Check your spam folder too."
     }
   },
-  "entryForm": {
-    "sharePlatforms": {
-      "facebook": "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgiveaway-558.netlify.app%2Fadmin",
-      "twitter": "https://twitter.com/intent/tweet?url=https%3A%2F%2Fgiveaway-558.netlify.app%2Fadmin&text=Win%20Toronto%20Blue%20Jays%20Tickets%20for%20an%20Epic%20Summer%20Game%20Night!"
+  entryForm: {
+    sharePlatforms: {
+      facebook: "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2FGiveaway-794.netlify.app%2Fadmin",
+      twitter: "https://twitter.com/intent/tweet?url=https%3A%2F%2FGiveaway-794.netlify.app%2Fadmin&text=Win%20a%20%24500%20Capitol%20Hill%20Fall%20Night%20Out%2C%20Free%20Entry!"
     },
-    "subtitle": "Enter your details below for a shot at your dream Blue Jays night out!",
-    "entryCountText": "Hundreds of Toronto fans are already in—don't miss your chance!",
-    "socialSharePrompt": "Share with your friends—make it a race to win!",
-    "consentLabel": ""
+    subtitle: "Enter your details for a chance to win this $500 Capitol Hill Fall Night Out!",
+    entryCountText: "Entries are open now, don’t miss your shot!",
+    socialSharePrompt: "Share this with a Seattle friend who loves fall nights:"
   },
-  "modalQuestions": [
+  modalQuestions: [
     {
-      "id": "q_auto_1760120269880_0",
-      "questionText": "What do you like the most about your current home?",
-      "options": [
-        {
-          "value": "The location",
-          "text": "The location"
-        },
-        {
-          "value": "The layout",
-          "text": "The layout"
-        },
-        {
-          "value": "The finishes (paint, lighting, etc.)",
-          "text": "The finishes (paint, lighting, etc.)"
-        },
-        {
-          "value": "The outdoor space",
-          "text": "The outdoor space"
-        }
+      id: "q_auto_1750445840887_0",
+      questionText: "What's your current situation?",
+      options: [
+        { value: "I own my home", text: "I own my home" },
+        { value: "I rent", text: "I rent" },
+        { value: "Live with family/friends", text: "Live with family/friends" },
+        { value: "Between homes", text: "Between homes" }
       ]
     },
     {
-      "id": "q_auto_1760120269880_1",
-      "questionText": "Is a move on your radar in the near future?",
-      "options": [
-        {
-          "value": "Yes, sometime in 2025",
-          "text": "Yes, sometime in 2025"
-        },
-        {
-          "value": "Yes, in the next 1–2 years",
-          "text": "Yes, in the next 1–2 years"
-        },
-        {
-          "value": "Not at the moment",
-          "text": "Not at the moment"
-        },
-        {
-          "value": "I’m not sure yet",
-          "text": "I’m not sure yet"
-        }
+      id: "q_auto_1750445840887_1",
+      questionText: "What are you looking to do?",
+      options: [
+        { value: "Buy a home", text: "Buy a home" },
+        { value: "Sell and buy", text: "Sell and buy" },
+        { value: "Rent a place", text: "Rent a place" },
+        { value: "Invest in property", text: "Invest in property" },
+        { value: "Staying put", text: "Staying put" }
       ]
     },
     {
-      "id": "q_auto_1760120269880_2",
-      "questionText": "What’s your current housing situation?",
-      "options": [
-        {
-          "value": "I rent and am interested in buying",
-          "text": "I rent and am interested in buying"
-        },
-        {
-          "value": "I own and might sell within 2 years",
-          "text": "I own and might sell within 2 years"
-        },
-        {
-          "value": "I own and am happy where I am",
-          "text": "I own and am happy where I am"
-        },
-        {
-          "value": "I’m actively looking to buy or sell now",
-          "text": "I’m actively looking to buy or sell now"
-        }
+      id: "q_auto_1750445840887_2",
+      questionText: "When are you planning to move?",
+      options: [
+        { value: "ASAP", text: "ASAP" },
+        { value: "3-6 months", text: "3-6 months" },
+        { value: "6-12 months", text: "6-12 months" },
+        { value: "12+ months", text: "12+ months" },
+        { value: "No plans", text: "No plans" }
       ]
     }
   ],
-  "thankYouPage": {
-    "socialLinks": {
-      "facebook": "",
-      "instagram": "",
-      "twitter": "",
-      "tiktok": ""
+  footerContact: {
+    social: {
+      facebook: "https://www.facebook.com/brenthebroker/",
+      instagram: "https://www.instagram.com/brenthebroker"
     },
-    "pageTitle": "Thank You for Your Entry!",
-    "headerText": "🎉 ONE MORE STEP",
-    "mainMessage": "Your spot for the <strong>Toronto Blue Jays Summer Game Night</strong> is almost locked in! You've made it to the final step of the giveaway - congratulations! Now all you need to do is follow my social media accounts to officially lock in your entry and stay connected",
-    "socialPromptText": "FOLLOW BOTH TO WIN! Complete Your Entry Now"
+    agentContact: {
+      name: "Brennen Clouse",
+      title: "REALTOR",
+      phone: "206-899-9101",
+      email: "brennen@egreseattle.com"
+    },
+    footerDisclaimer: "This giveaway is sponsored by Brennen Clouse at Real Broker LLC and is not affiliated with Instagram, Facebook, or any listed venues. No purchase necessary. Washington residents only. Must be 18+. One entry per person. Entries close Oct 21, 2026 at 11:59 PM PT. Winner selected at random on Oct 21, 2026. Odds depend on number of entries. Prize must be claimed within 5 business days. By entering, you agree to our Privacy Policy.",
+    organizerLogoUrl: "https://salesgenius.s3.ca-central-1.amazonaws.com/branding/logos/1769272484683-Emeralg-Group-Logo_black.png",
+    secondaryLogoUrl: "https://onereal.widencollective.com/portals/tcbndxev/BrandElements#210f16ca-d1ce-429d-b6bb-b0207e9c992d",
+    secondaryLogoAlt: "Real Broker LLC Logo",
+    organizerName: "The Emerald Group",
+    brokerageName: "Real Broker LLC",
+    address: "39899 Balentine Dr, Ste 200, Newark, CA, 94560, United States",
+    email: "brennen@egreseattle.com",
+    phone: "206-899-9101",
+    copyrightOwner: "Brennen Clouse"
   },
-  "footerContact": {
-    "social": {
-      "facebook": "https://www.facebook.com/JulianKashaniRealtor",
-      "instagram": "http://instagram.com/juliankashani"
-    },
-    "agentContact": {
-      "name": "Julian Kashani",
-      "title": "Real Estate Agent",
-      "phone": "(416) 837-7775",
-      "email": "jk@property.ca"
-    },
-    "footerDisclaimer": "This giveaway is sponsored by Julian Kashani, REALTOR®, and is not sponsored by or affiliated with the Toronto Blue Jays or Texas Rangers. Winner selected at random from entries received by July 25th, 2025. Must be 18+ and an Ontario resident to enter.",
-    "organizerLogoUrl": "",
-    "secondaryLogoUrl": "",
-    "secondaryLogoAlt": "Property.Ca Brokerage Logo",
-    "organizerName": "Julian Kashani",
-    "brokerageName": "Property.Ca",
-    "address": "36 Distillery Lane Unit 500 Toronto M5A3C4",
-    "email": "jk@property.ca",
-    "phone": "(416) 837-7775",
-    "copyrightOwner": "Property.Ca"
-  },
-  "deploymentInfo": {
-    "repoName": "giveaway",
-    "repoUrl": "https://github.com/arslvn93/giveaway",
-    "netlifyUrl": "http://giveawaymain.netlify.app",
-    "netlifyId": "",
-    "tag": "Blue Jays Giveaway"
+  deploymentInfo: {
+    repoName: "Giveaway-794",
+    repoUrl: "https://github.com/arslvn93/Giveaway-794",
+    netlifyUrl: "http://Giveaway-794.netlify.app",
+    netlifyId: "1375102736",
+    tag: "Capitol Hill Fall Night Out"
   }
 };
